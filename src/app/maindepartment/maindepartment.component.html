@@ -1,0 +1,8 @@
+  <div class="card" style="width: 18rem;" *ngFor="let item of newsdetails ;let i=index">
+      <h5 class="card-title"><a routerLink="/details/{{item.ID}}">{{item.Name}}}</a></h5>
+      <div class="card-body">
+          <img class="card-img-top" src="{{item.Image}}" alt="Card image cap">
+        <p class="card-text">{{item.Date|date}}</p>
+        <a routerLink="/details/{{item.ID}}" class="btn btn-primary">Go To Details</a>
+      </div>
+    </div>

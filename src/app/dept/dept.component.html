@@ -1,0 +1,19 @@
+
+
+  <table class="table table-light ">
+    <thead>
+      <tr>
+        <th scope="col">Feature News</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dept of depts ; let i=index">
+       <td><a routerLink="/details/{{dept.ID}}">{{dept.Name}}</a></td>
+        
+      </tr>
+     
+    </tbody>
+  </table>
+
+

@@ -1,0 +1,10 @@
+
+  <div class="card" style="width: 18rem;" >
+        <h5 class="card-title"><a routerLink="/details/{{newsdetails.ID}}">{{newsdetails.Name}}</a></h5>
+        <p class="card-text">{{newsdetails.Date|date}}</p>
+        <div class="card-body">
+            <img class="card-img-top" src="{{newsdetails.Image}}" alt="Card image cap">
+            <p class="card-text">{{newsdetails.Desc}}</p>
+          <a routerLink="/departmentnews/{{newsdetails.DepartmentID}}" class="btn btn-primary">Go Back</a>
+        </div>
+      </div>
