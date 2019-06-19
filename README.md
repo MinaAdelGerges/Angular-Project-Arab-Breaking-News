@@ -1,4 +1,6 @@
-# HelloWorld
+![alt text](https://github.com/MinaAdelGerges/Angular_News_Project/blob/master/src/assets/angular.jpg)
+
+# Arab News
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
